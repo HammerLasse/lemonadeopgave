@@ -7,12 +7,12 @@ function Home() {
 
   return (
     <main>
-      <h1>Lemonade Stand</h1>
-      <h2>Profit: ${profit}</h2>
+      <h1>Lemonade Butik</h1>
+      <h2>Penge tjent: {profit}kr</h2>
       <button onClick={() => dispatch(sellLemonade())}>
-        Sell Lemonade +$5
+        Sælg Lemonade +5kr
       </button>
-      <button onClick={() => dispatch(buyLemons())}>Buy Lemons -$2</button>
+      <button onClick={() => dispatch(buyLemons())}>Køb citroner -2kr</button>
     </main>
   );
 }

@@ -4,13 +4,13 @@ function Layout() {
   return (
     <>
       <nav>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Hjem</NavLink>
         {" | "}
-        <NavLink to="/shop">Shop</NavLink>
+        <NavLink to="/shop">Butikken</NavLink>
         {" | "}
-        <NavLink to="/cart">Cart</NavLink>
+        <NavLink to="/cart">Kurv</NavLink>
         {" | "}
-        <NavLink to="/checkout">Checkout</NavLink>
+        <NavLink to="/checkout">Tjek ud</NavLink>
       </nav>
 
       <main>

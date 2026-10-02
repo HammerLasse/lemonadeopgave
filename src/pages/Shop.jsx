@@ -16,7 +16,7 @@ function Shop() {
 
   return (
     <div>
-      <h1>Shop</h1>
+      <h1>Butikken</h1>
 
       {drinks.map((drink) => (
         <div key={drink.idDrink}>
@@ -35,7 +35,7 @@ function Shop() {
               )
             }
           >
-            Add to cart
+            Tilføj til kurven
           </button>
         </div>
       ))}
